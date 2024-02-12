@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>숫자 맞추기 게임!</h1>
-    <div id="result-area">결과가 나온다</div>
-    <input type="number" id="user-input"/>
+    <div class="container">
+    <h1 class="background">숫자 맞추기 게임!</h1>
+    <div id="result-area" class="font-color">결과가 나온다</div>
+    <div id="chance-area" class="font-color">남은 찬스 : 5번</div>
+    <input type="number" id="user-input" placeholder="1부터 100까지 숫자를 입력하세요." class="input mb-10"/>
     <button id="play-button">go!</button>
+    <button id="reset-button">리셋!</button>
     <script src="main.js"></script>
+    </div>
 </body>
 </html>
